@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS capstone_db;
+
+USE capstone_db;
+
+CREATE TABLE IF NOT EXISTS results (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    result TEXT NOT NULL
+);
